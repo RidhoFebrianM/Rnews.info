@@ -9,7 +9,7 @@ export const BottomNav = ({ activeTab, onTabChange }) => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-7xl bg-gradient-to-t from-slate-950 via-slate-950 to-slate-950/95 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex justify-around items-center border-t border-slate-800/50 z-40 backdrop-blur-xl">
+    <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-7xl bg-linear-to-t from-slate-950 via-slate-950 to-slate-950/95 px-4 sm:px-6 lg:px-2 py-3 sm:py-4 flex justify-around items-center border-t border-slate-800/50 z-40 backdrop-blur-xl">
       {navItems.map((item) => {
         const Icon = item.icon;
         const isActive = activeTab === item.id;

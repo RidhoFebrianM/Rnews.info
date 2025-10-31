@@ -6,12 +6,12 @@ export const NewsItem = ({ news }) => {
       href={news.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex gap-3 sm:gap-4 bg-gradient-to-r from-white/5 to-white/[0.02] rounded-2xl sm:rounded-3xl p-3 sm:p-4 hover:translate-x-1 hover:from-white/10 hover:to-white/5 transition-all cursor-pointer border border-white/5 hover:border-white/10 shadow-lg group"
+      className="flex gap-3 sm:gap-4 bg-linear-to-r from-white/5 to-white/2 rounded-2xl sm:rounded-3xl p-3 sm:p-4 hover:translate-x-1 hover:from-white/10 hover:to-white/5 transition-all cursor-pointer border border-white/5 hover:border-white/10 shadow-lg group"
     >
       <img 
         src={news.image}
         alt={news.title}
-        className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl sm:rounded-2xl object-cover flex-shrink-0 group-hover:scale-105 transition-transform"
+        className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl sm:rounded-2xl object-cover shrink-0 group-hover:scale-105 transition-transform"
       />
       <div className="flex-1 min-w-0">
         <h3 className="text-sm sm:text-base font-semibold mb-2 line-clamp-2 text-white group-hover:text-red-400 transition-colors">

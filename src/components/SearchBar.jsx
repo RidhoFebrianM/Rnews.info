@@ -5,7 +5,7 @@ export const SearchBar = ({ isActive, onSearch, value, onClear }) => {
 
   return (
     <div className="px-4 sm:px-6 lg:px-8 py-4 sm:py-5 animate-fadeIn">
-      <div className="flex items-center bg-gradient-to-r from-white/10 to-white/5 rounded-2xl px-4 sm:px-5 py-3 sm:py-4 gap-3 backdrop-blur-md border border-white/10 shadow-xl">
+      <div className="flex items-center bg-linear-to-r from-white/10 to-white/5 rounded-2xl px-4 sm:px-5 py-3 sm:py-4 gap-3 backdrop-blur-md border border-white/10 shadow-xl">
         <Search className="w-5 h-5 text-slate-400" />
         <input 
           type="text"

@@ -78,7 +78,7 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 max-w-7xl mx-auto relative">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 max-w-7xl mx-auto relative">
       {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
       
       <Header notificationCount={3} />
